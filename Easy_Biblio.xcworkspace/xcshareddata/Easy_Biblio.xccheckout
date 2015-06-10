@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C197CC95-98E2-4F90-BFBD-9F28505D8C20</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Easy_Biblio</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7597E111E6CEB4311D497DD4849515257821A3AD</key>
+		<string>github.com:fmfurtado/easybiblio-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Easy_Biblio.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7597E111E6CEB4311D497DD4849515257821A3AD</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:fmfurtado/easybiblio-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7597E111E6CEB4311D497DD4849515257821A3AD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7597E111E6CEB4311D497DD4849515257821A3AD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>easybiblio-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>
