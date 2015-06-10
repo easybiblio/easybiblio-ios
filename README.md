@@ -1,10 +1,9 @@
 # easybiblio-ios
 iOS Client for EasyBiblio
 
-# how to start
-
 # Cocoapods
-It manages all the libraries
+It manages all the libraries. How to install can be found here: 
+https://guides.cocoapods.org/using/getting-started.html
 
 ```
 $ pod install
