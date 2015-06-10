@@ -1,4 +1,6 @@
 language: objective-c
+xcode_project: Easy_Biblio.xcodeproj
+xcode_scheme: Easy_BiblioProjectTests
 
 before_install:
   - gem install cocoapods
