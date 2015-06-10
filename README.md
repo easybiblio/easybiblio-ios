@@ -1,5 +1,5 @@
 # Status
-[![Build Status](https://travis-ci.org/easybiblio/easybiblio-ios.svg?branch=master)](https://travis-ci.org/seasybiblio/easybiblio-ios)]
+[![Build Status](https://travis-ci.org/easybiblio/easybiblio-ios.svg?branch=master)](https://travis-ci.org/seasybiblio/easybiblio-ios)
 
 # easybiblio-ios
 iOS Client for EasyBiblio
