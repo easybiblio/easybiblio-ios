@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E1251BDC1CFAE0BF7526A88 /* Pods_Easy_Biblio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FEDB61769B9B224B7A6581 /* Pods_Easy_Biblio.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		47895D712EE8052B73A298EF /* libPods-Easy_Biblio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4BCB8554129F13D57892CB /* libPods-Easy_Biblio.a */; };
 		8C26D3751A3B1EE000D2C974 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C26D3741A3B1EE000D2C974 /* main.m */; };
 		8C26D37E1A3B1EE000D2C974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C26D37C1A3B1EE000D2C974 /* Main.storyboard */; };
 		8C26D3801A3B1EE100D2C974 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C26D37F1A3B1EE100D2C974 /* Images.xcassets */; };
@@ -34,7 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		59FEDB61769B9B224B7A6581 /* Pods_Easy_Biblio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easy_Biblio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C252EB80EAECF8ED13F25DE /* Pods-Easy_Biblio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy_Biblio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Easy_Biblio/Pods-Easy_Biblio.debug.xcconfig"; sourceTree = "<group>"; };
 		70AD1C8A28AEC44D96F6B718 /* Pods-Easy_Biblio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy_Biblio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Easy_Biblio/Pods-Easy_Biblio.release.xcconfig"; sourceTree = "<group>"; };
 		8C26D36F1A3B1EE000D2C974 /* Easy_Biblio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Easy_Biblio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +61,7 @@
 		8C26D3DA1A3CFF0600D2C974 /* EBBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBBook.m; sourceTree = "<group>"; };
 		8C26D3EA1A3D04AF00D2C974 /* EBBookList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBBookList.h; sourceTree = "<group>"; };
 		8C26D3EB1A3D04AF00D2C974 /* EBBookList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBBookList.m; sourceTree = "<group>"; };
+		DE4BCB8554129F13D57892CB /* libPods-Easy_Biblio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Easy_Biblio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E1251BDC1CFAE0BF7526A88 /* Pods_Easy_Biblio.framework in Frameworks */,
+				47895D712EE8052B73A298EF /* libPods-Easy_Biblio.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +232,7 @@
 		BE40D6E31726F213E2B34612 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				59FEDB61769B9B224B7A6581 /* Pods_Easy_Biblio.framework */,
+				DE4BCB8554129F13D57892CB /* libPods-Easy_Biblio.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -248,7 +248,6 @@
 				8C26D36B1A3B1EE000D2C974 /* Sources */,
 				8C26D36C1A3B1EE000D2C974 /* Frameworks */,
 				8C26D36D1A3B1EE000D2C974 /* Resources */,
-				E20950107A45A633CC7A345F /* Embed Pods Frameworks */,
 				39626DB6CC416A66615BFCE7 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -364,21 +363,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E20950107A45A633CC7A345F /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Easy_Biblio/Pods-Easy_Biblio-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

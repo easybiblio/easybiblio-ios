@@ -1,5 +1,4 @@
 platform :ios, '8.3'
-use_frameworks!
 
 target 'Easy_Biblio' do
   pod 'AFNetworking', '~> 2.5'
